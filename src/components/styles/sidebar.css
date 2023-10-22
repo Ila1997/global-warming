@@ -1,25 +1,7 @@
-.sidebar #open {
-overflow: ''
-}
-.social-icons {
-    color: white;
-}
-
-.social-icons:hover{
-    color: lightseagreen;
-}
 
 @media only screen and (max-width: 650px) {
 
-    /*.eETGfq {
-        display: none;
-    }*/
-
-    .jGeaPm .head-div {
-display: none;
-    }
-
-.sidebar #open {
+#sidebar {
     display: none;
-    }
+}
 }
