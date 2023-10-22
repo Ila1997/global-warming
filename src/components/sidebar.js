@@ -4,7 +4,6 @@ import { PiGithubLogoBold, PiInstagramLogoBold, PiLinkedinLogoBold } from "react
 import {
   CDBSidebar,
   CDBSidebarContent,
-  CDBSidebarFooter,
   CDBSidebarHeader,
   CDBSidebarMenu,
   CDBSidebarMenuItem,

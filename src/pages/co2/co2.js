@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import Co2Img from "../../components/img/co2.png";
 import { LineChart } from '../../components/lineChart';
 import "../co2/co2.css"
-import { withTheme } from '@emotion/react';
 
 
 const fetchData = async () => {

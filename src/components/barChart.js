@@ -1,6 +1,5 @@
 import { Bar } from "react-chartjs-2"
 import PropTypes from 'prop-types';
-import Chart from 'chart.js/auto';
 
 export const BarChart = ({ chartData }) => {
     const options = {
