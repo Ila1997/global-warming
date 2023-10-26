@@ -6,7 +6,7 @@ import Co2 from './pages/co2/co2';
 import Methane from './pages/methane/methane';
 import No2 from './pages/no2/no2';
 import Artic from './pages/artic/artic';
-import {BrowserRouter as Router, Route, Routes, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, redirect} from 'react-router-dom';
 
 function App() {
 
@@ -22,8 +22,8 @@ function App() {
         <Route path="/no2" exact element={<No2 />} />
         <Route path="/artic" exact element={<Artic />} />
         <Route path="*"/>
-        <Redirect to="/"/>
       </Routes>
+      <redirect to="/"/>
       </Router>
 
     </div>
