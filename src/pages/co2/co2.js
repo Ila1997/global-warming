@@ -59,10 +59,10 @@ const fetchData = async () => {
 
   return (
      <div>
-      <img src={Co2Img} width={400} height={210} alt='Co2Img'></img>
+      <img src={Co2Img} width={'50%'} height={'30%'} alt='Co2Img'></img>
       <h1>CO2</h1>
 
-      <div>
+      <div className='div-container'>
   <p>Carbon dioxide is Earth’s most important greenhouse gas: a gas that absorbs and radiates heat. Unlike oxygen or nitrogen (which make up most of our atmosphere), greenhouse gases absorb heat radiating from the Earth’s surface and re-release it in all directions—including back toward Earth’s surface. </p>
 
   <p>Without carbon dioxide, Earth’s natural greenhouse effect would be too weak to keep the average global surface temperature above freezing. By adding more carbon dioxide to the atmosphere, people are supercharging the natural greenhouse effect, causing global temperature to rise.</p>

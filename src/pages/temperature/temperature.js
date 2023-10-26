@@ -55,10 +55,10 @@ const fetchData = async () => {
 
   return (
     <div>
-      <img src={TemperatureImg} width={400} height={210} alt='tempImg'></img>
+      <img src={TemperatureImg} width={'50%'} height={'30%'} alt='tempImg'></img>
       <h1>Temperature</h1>
 
-<div>
+<div className='div-container'>
   <p>Temperature is a fundamental measurement for describing the climate, and the temperature in particular places can have wide-ranging effects on human life and ecosystems. </p>
 
   <p>For example, increases in air temperature can lead to more intense heat waves, which can cause illness and death, especially in vulnerable populations.

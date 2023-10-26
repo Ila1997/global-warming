@@ -21,6 +21,8 @@ function App() {
         <Route path="/methane" exact element={<Methane />} />
         <Route path="/no2" exact element={<No2 />} />
         <Route path="/artic" exact element={<Artic />} />
+        <Route path="*"/>
+        <Redirect to="/"/>
       </Routes>
       </Router>
 
