@@ -6,7 +6,7 @@ import Co2 from './pages/co2/co2';
 import Methane from './pages/methane/methane';
 import No2 from './pages/no2/no2';
 import Artic from './pages/artic/artic';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, Redirect} from 'react-router-dom';
 
 function App() {
 
