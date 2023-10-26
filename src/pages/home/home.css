@@ -85,6 +85,7 @@
     }
   
     .headerContainer p {
+      margin-top: 27px;
       margin-bottom: 2px;
       font-size: 12px;
       color: white;

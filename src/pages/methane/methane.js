@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import MethaneImg from "../../components/img/methane.png";
 import { LineChart } from '../../components/lineChart';
+import "../methane/methane.css"
 
 const fetchData = async () => {
     try {
@@ -51,10 +52,10 @@ const fetchData = async () => {
 
     return (
         <div>
-          <img src={MethaneImg} width={400} height={210} alt='MethaneImg'></img>
+          <img src={MethaneImg} width={'50%'} height={'30%'} alt='MethaneImg'></img>
           <h1>Methane</h1>
 
-<div>
+<div className='div-container'>
   <p>Due to its structure, methane traps more heat in the atmosphere per molecule than carbon dioxide (CO2), making it 80 times more harmful than CO2 for 20 years after it is released.</p>
 
   <p>According to the Environmental Protection Agency, landfills are world's largest source of methane, a major contributor to global warming.</p>

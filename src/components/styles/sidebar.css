@@ -1,25 +1,31 @@
-.sidebar #open {
-overflow: ''
-}
 .social-icons {
-    color: white;
+    color:rgb(62, 200, 255);
 }
 
 .social-icons:hover{
-    color: lightseagreen;
+    color: lightgreen;
 }
 
 @media only screen and (max-width: 650px) {
-
-    /*.eETGfq {
-        display: none;
-    }*/
-
-    .jGeaPm .head-div {
-display: none;
-    }
-
-.sidebar #open {
+.text-decoration-none {
     display: none;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    color:rgb(62, 200, 255);
+}
+
+.social-icons:hover{
+    color: lightgreen;
+}
+
+    .sidebar-container{
+width: 25%;
     }
 }

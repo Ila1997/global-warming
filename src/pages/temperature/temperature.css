@@ -1,0 +1,15 @@
+.div-container{
+  background-color: black;
+  box-sizing: border-box;
+  display: block;
+  width: 98%;
+}
+
+@media only screen and (max-width: 650px) {
+    .div-container{
+    background-color: black;
+    box-sizing: border-box;
+    display: block;
+    width: 95%;
+  }
+  }

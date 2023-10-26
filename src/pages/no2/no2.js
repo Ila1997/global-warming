@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import No2Img from "../../components/img/no2.png";
 import { LineChart } from '../../components/lineChart';
+import "../no2/no2.css"
 
 const fetchData = async () => {
     try {
@@ -52,10 +53,10 @@ const fetchData = async () => {
 
     return (
         <div>
-          <img src={No2Img} width={400} height={210} alt='No2Img'></img>
+          <img src={No2Img} width={'50%'} height={'30%'} alt='No2Img'></img>
           <h1>NO2</h1>
 
-<div>
+<div className='div-container'>
   <p>Nitrogen dioxide (NO2), an often-overlooked greenhouse gas, is a significant contributor to global warming.</p>
 
   <p>Nitrous oxide has always existed in the atmosphere. It’s mostly produced by microbes in soil and naturally released, especially from tropical rainforests, permafrost melting in the Arctic, as well as microbes in the oceans.</p>
