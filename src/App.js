@@ -15,7 +15,7 @@ function App() {
       <Router>
       <Sidebar />
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route path="/global-warming" exact element={<Home />} />
         <Route path="/temperature" exact element={<Temperature />} />
         <Route path="/co2" exact element={<Co2 />} />
         <Route path="/methane" exact element={<Methane />} />
