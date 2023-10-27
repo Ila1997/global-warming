@@ -1,5 +1,5 @@
 import './App.css';
-import Sidebar from './components/sidebar';
+import Sidebar from './components/sidebar/sidebar';
 import Home from './pages/home/home';
 import Temperature from './pages/temperature/temperature';
 import Co2 from './pages/co2/co2';
