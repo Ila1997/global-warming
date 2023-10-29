@@ -19,7 +19,7 @@ const Sidebar = ({ onSelect }) => {
     }
 
     const links = [
-      {path: "/global-warming", label: "home"},
+      {path: "/", label: "home"},
       {path: "/temperature", label: "Temperature"},
       { path: "/co2", label: "CO2"},
       { path: "/metano", label: "Methane"},
@@ -54,7 +54,7 @@ const Sidebar = ({ onSelect }) => {
         <CDBSidebarContent className="sidebar-container">
           <CDBSidebarMenu>
 
-            <NavLink exact to="/global-warming" activeClassName="activeClicked">
+            <NavLink exact to="/" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="home">Home</CDBSidebarMenuItem>
             </NavLink>
 
