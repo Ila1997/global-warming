@@ -9,7 +9,7 @@
 </div>
 
 # :link: *Project link: [My Global Warming Website](https://global-warming-ilaria-nuzzaco.netlify.app/)*
-![Immagine](https://i.ibb.co/bWPhjSy/global-warming-screenshot.png)
+![Immagine](https://i.ibb.co/RSmdhc1/Screenshot-7.png)
 
 # *About the project:*
 
