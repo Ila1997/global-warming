@@ -1,4 +1,4 @@
-.div-container{
+.div-container {
   background-color: black;
   box-sizing: border-box;
   display: block;
@@ -6,10 +6,10 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .div-container{
+  .div-container {
     background-color: black;
     box-sizing: border-box;
     display: block;
     width: 95%;
   }
-  }
+}
